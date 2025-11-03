@@ -1,0 +1,24 @@
+{
+  "title": "eIDAS 2.0: requisiti base",
+  "description": "Cosa cambia per firme, sigilli, identificazione e QTSP.",
+  "date": "2025-11-03T00:00:00.000Z",
+  "tags": [
+    "eidas",
+    "qtsp"
+  ],
+  "slug": "guida-eidas2",
+  "body": {
+    "raw": "import { MDXComponents } from \"@/app/mdx-components\"\n\n\n## Novità chiave\n- EUDI Wallet\n- Livelli di garanzia\n- Notifiche stati membri\n\n",
+    "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var g=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),_=(i,e)=>{for(var t in e)o(i,t,{get:e[t],enumerable:!0})},l=(i,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!v.call(i,a)&&a!==t&&o(i,a,{get:()=>e[a],enumerable:!(c=f(e,a))||c.enumerable});return i};var s=(i,e,t)=>(t=i!=null?u(x(i)):{},l(e||!i||!i.__esModule?o(t,\"default\",{value:i,enumerable:!0}):t,i)),D=i=>l(o({},\"__esModule\",{value:!0}),i);var r=g((X,d)=>{d.exports=_jsx_runtime});var j={};_(j,{default:()=>h,frontmatter:()=>M});var n=s(r());var C=s(r());var M={title:\"eIDAS 2.0: requisiti base\",description:\"Cosa cambia per firme, sigilli, identificazione e QTSP.\",date:\"2025-11-03\",tags:[\"eidas\",\"qtsp\"],slug:\"guida-eidas2\"};function m(i){let e={a:\"a\",h2:\"h2\",li:\"li\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{id:\"novit\\xE0-chiave\",children:(0,n.jsx)(e.a,{href:\"#novit\\xE0-chiave\",children:\"Novit\\xE0 chiave\"})}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"EUDI Wallet\"}),`\n`,(0,n.jsx)(e.li,{children:\"Livelli di garanzia\"}),`\n`,(0,n.jsx)(e.li,{children:\"Notifiche stati membri\"}),`\n`]})]})}function h(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(m,{...i})}):m(i)}return D(j);})();\n;return Component;"
+  },
+  "_id": "guides/guida-eidas2.mdx",
+  "_raw": {
+    "sourceFilePath": "guides/guida-eidas2.mdx",
+    "sourceFileName": "guida-eidas2.mdx",
+    "sourceFileDir": "guides",
+    "contentType": "mdx",
+    "flattenedPath": "guides/guida-eidas2"
+  },
+  "type": "Guide",
+  "url": "/guides/guida-eidas2"
+}

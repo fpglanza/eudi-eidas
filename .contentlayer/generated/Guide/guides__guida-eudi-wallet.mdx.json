@@ -1,0 +1,24 @@
+{
+  "title": "EUDI Wallet: readiness checklist",
+  "description": "Come preparare processi e sistemi alla compatibilità wallet.",
+  "date": "2025-11-03T00:00:00.000Z",
+  "tags": [
+    "eudi",
+    "checklist"
+  ],
+  "slug": "guida-eudi-wallet",
+  "body": {
+    "raw": "import { MDXComponents } from \"@/app/mdx-components\"\n\n\n## Checklist\n- Identità e attestati richiesti\n- Interoperabilità e presentazioni\n- UX e fallback\n\n",
+    "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var k=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),C=(t,e)=>{for(var i in e)l(t,i,{get:e[i],enumerable:!0})},o=(t,e,i,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!_.call(t,r)&&r!==i&&l(t,r,{get:()=>e[r],enumerable:!(s=u(e,r))||s.enumerable});return t};var c=(t,e,i)=>(i=t!=null?p(x(t)):{},o(e||!t||!t.__esModule?l(i,\"default\",{value:t,enumerable:!0}):i,t)),g=t=>o(l({},\"__esModule\",{value:!0}),t);var a=k((w,d)=>{d.exports=_jsx_runtime});var X={};C(X,{default:()=>m,frontmatter:()=>M});var n=c(a());var D=c(a());var M={title:\"EUDI Wallet: readiness checklist\",description:\"Come preparare processi e sistemi alla compatibilit\\xE0 wallet.\",date:\"2025-11-03\",tags:[\"eudi\",\"checklist\"],slug:\"guida-eudi-wallet\"};function h(t){let e={a:\"a\",h2:\"h2\",li:\"li\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{id:\"checklist\",children:(0,n.jsx)(e.a,{href:\"#checklist\",children:\"Checklist\"})}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Identit\\xE0 e attestati richiesti\"}),`\n`,(0,n.jsx)(e.li,{children:\"Interoperabilit\\xE0 e presentazioni\"}),`\n`,(0,n.jsx)(e.li,{children:\"UX e fallback\"}),`\n`]})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(h,{...t})}):h(t)}return g(X);})();\n;return Component;"
+  },
+  "_id": "guides/guida-eudi-wallet.mdx",
+  "_raw": {
+    "sourceFilePath": "guides/guida-eudi-wallet.mdx",
+    "sourceFileName": "guida-eudi-wallet.mdx",
+    "sourceFileDir": "guides",
+    "contentType": "mdx",
+    "flattenedPath": "guides/guida-eudi-wallet"
+  },
+  "type": "Guide",
+  "url": "/guides/guida-eudi-wallet"
+}

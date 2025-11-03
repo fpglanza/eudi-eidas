@@ -1,0 +1,152 @@
+{
+  "cacheItemsMap": {
+    "guides/guida-eidas2.mdx": {
+      "document": {
+        "title": "eIDAS 2.0: requisiti base",
+        "description": "Cosa cambia per firme, sigilli, identificazione e QTSP.",
+        "date": "2025-11-03T00:00:00.000Z",
+        "tags": [
+          "eidas",
+          "qtsp"
+        ],
+        "slug": "guida-eidas2",
+        "body": {
+          "raw": "import { MDXComponents } from \"@/app/mdx-components\"\n\n\n## Novità chiave\n- EUDI Wallet\n- Livelli di garanzia\n- Notifiche stati membri\n\n",
+          "code": "var Component=(()=>{var h=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var v=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),_=(i,e)=>{for(var t in e)r(i,t,{get:e[t],enumerable:!0})},l=(i,e,t,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!g.call(i,o)&&o!==t&&r(i,o,{get:()=>e[o],enumerable:!(c=p(e,o))||c.enumerable});return i};var s=(i,e,t)=>(t=i!=null?h(x(i)):{},l(e||!i||!i.__esModule?r(t,\"default\",{value:i,enumerable:!0}):t,i)),D=i=>l(r({},\"__esModule\",{value:!0}),i);var a=v((X,d)=>{d.exports=_jsx_runtime});var j={};_(j,{default:()=>u,frontmatter:()=>M});var n=s(a());var C=s(a());var M={title:\"eIDAS 2.0: requisiti base\",description:\"Cosa cambia per firme, sigilli, identificazione e QTSP.\",date:\"2025-11-03\",tags:[\"eidas\",\"qtsp\"],slug:\"guida-eidas2\"};function m(i){let e={h2:\"h2\",li:\"li\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{id:\"novit\\xE0-chiave\",children:\"Novit\\xE0 chiave\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"EUDI Wallet\"}),`\n`,(0,n.jsx)(e.li,{children:\"Livelli di garanzia\"}),`\n`,(0,n.jsx)(e.li,{children:\"Notifiche stati membri\"}),`\n`]})]})}function u(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(m,{...i})}):m(i)}return D(j);})();\n;return Component;"
+        },
+        "_id": "guides/guida-eidas2.mdx",
+        "_raw": {
+          "sourceFilePath": "guides/guida-eidas2.mdx",
+          "sourceFileName": "guida-eidas2.mdx",
+          "sourceFileDir": "guides",
+          "contentType": "mdx",
+          "flattenedPath": "guides/guida-eidas2"
+        },
+        "type": "Guide",
+        "url": "/guides/guida-eidas2"
+      },
+      "documentHash": "1762182913620",
+      "hasWarnings": false,
+      "documentTypeName": "Guide"
+    },
+    "guides/guida-eudi-wallet.mdx": {
+      "document": {
+        "title": "EUDI Wallet: readiness checklist",
+        "description": "Come preparare processi e sistemi alla compatibilità wallet.",
+        "date": "2025-11-03T00:00:00.000Z",
+        "tags": [
+          "eudi",
+          "checklist"
+        ],
+        "slug": "guida-eudi-wallet",
+        "body": {
+          "raw": "import { MDXComponents } from \"@/app/mdx-components\"\n\n\n## Checklist\n- Identità e attestati richiesti\n- Interoperabilità e presentazioni\n- UX e fallback\n\n",
+          "code": "var Component=(()=>{var p=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var C=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var i in e)l(t,i,{get:e[i],enumerable:!0})},c=(t,e,i,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of x(e))!_.call(t,r)&&r!==i&&l(t,r,{get:()=>e[r],enumerable:!(a=u(e,r))||a.enumerable});return t};var s=(t,e,i)=>(i=t!=null?p(f(t)):{},c(e||!t||!t.__esModule?l(i,\"default\",{value:t,enumerable:!0}):i,t)),k=t=>c(l({},\"__esModule\",{value:!0}),t);var o=C((w,d)=>{d.exports=_jsx_runtime});var X={};g(X,{default:()=>h,frontmatter:()=>M});var n=s(o());var D=s(o());var M={title:\"EUDI Wallet: readiness checklist\",description:\"Come preparare processi e sistemi alla compatibilit\\xE0 wallet.\",date:\"2025-11-03\",tags:[\"eudi\",\"checklist\"],slug:\"guida-eudi-wallet\"};function m(t){let e={h2:\"h2\",li:\"li\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{id:\"checklist\",children:\"Checklist\"}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Identit\\xE0 e attestati richiesti\"}),`\n`,(0,n.jsx)(e.li,{children:\"Interoperabilit\\xE0 e presentazioni\"}),`\n`,(0,n.jsx)(e.li,{children:\"UX e fallback\"}),`\n`]})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return k(X);})();\n;return Component;"
+        },
+        "_id": "guides/guida-eudi-wallet.mdx",
+        "_raw": {
+          "sourceFilePath": "guides/guida-eudi-wallet.mdx",
+          "sourceFileName": "guida-eudi-wallet.mdx",
+          "sourceFileDir": "guides",
+          "contentType": "mdx",
+          "flattenedPath": "guides/guida-eudi-wallet"
+        },
+        "type": "Guide",
+        "url": "/guides/guida-eudi-wallet"
+      },
+      "documentHash": "1762182913621",
+      "hasWarnings": false,
+      "documentTypeName": "Guide"
+    },
+    "guides/guida-firme-elettroniche.mdx": {
+      "document": {
+        "title": "Firme elettroniche: FEA, FES, FEQ",
+        "description": "Quali usare quando, rischi e requisiti legali.",
+        "date": "2025-11-03T00:00:00.000Z",
+        "tags": [
+          "firme",
+          "feq",
+          "fea"
+        ],
+        "slug": "guida-firme-elettroniche",
+        "body": {
+          "raw": "import { MDXComponents } from \"@/app/mdx-components\"\n\n\n## Scelte\n- FEA per processi low-risk\n- FES per bilanciamento UX\n- FEQ per alto rischio\n\n",
+          "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,F=Object.prototype.hasOwnProperty;var _=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),g=(n,e)=>{for(var i in e)o(n,i,{get:e[i],enumerable:!0})},a=(n,e,i,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!F.call(n,r)&&r!==i&&o(n,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return n};var l=(n,e,i)=>(i=n!=null?h(x(n)):{},a(e||!n||!n.__esModule?o(i,\"default\",{value:n,enumerable:!0}):i,n)),E=n=>a(o({},\"__esModule\",{value:!0}),n);var c=_((D,m)=>{m.exports=_jsx_runtime});var j={};g(j,{default:()=>u,frontmatter:()=>X});var t=l(c());var M=l(c());var X={title:\"Firme elettroniche: FEA, FES, FEQ\",description:\"Quali usare quando, rischi e requisiti legali.\",date:\"2025-11-03\",tags:[\"firme\",\"feq\",\"fea\"],slug:\"guida-firme-elettroniche\"};function d(n){let e={h2:\"h2\",li:\"li\",ul:\"ul\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.h2,{id:\"scelte\",children:\"Scelte\"}),`\n`,(0,t.jsxs)(e.ul,{children:[`\n`,(0,t.jsx)(e.li,{children:\"FEA per processi low-risk\"}),`\n`,(0,t.jsx)(e.li,{children:\"FES per bilanciamento UX\"}),`\n`,(0,t.jsx)(e.li,{children:\"FEQ per alto rischio\"}),`\n`]})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(d,{...n})}):d(n)}return E(j);})();\n;return Component;"
+        },
+        "_id": "guides/guida-firme-elettroniche.mdx",
+        "_raw": {
+          "sourceFilePath": "guides/guida-firme-elettroniche.mdx",
+          "sourceFileName": "guida-firme-elettroniche.mdx",
+          "sourceFileDir": "guides",
+          "contentType": "mdx",
+          "flattenedPath": "guides/guida-firme-elettroniche"
+        },
+        "type": "Guide",
+        "url": "/guides/guida-firme-elettroniche"
+      },
+      "documentHash": "1762182913622",
+      "hasWarnings": false,
+      "documentTypeName": "Guide"
+    },
+    "guides/guida-introduzione.mdx": {
+      "document": {
+        "title": "Introduzione pratica a EUDI & eIDAS 2.0",
+        "description": "Panoramica per PMI: cos'è EUDI Wallet, come impatta e cosa fare ora.",
+        "date": "2025-11-03T00:00:00.000Z",
+        "tags": [
+          "eudi",
+          "eidas",
+          "pmi"
+        ],
+        "slug": "guida-introduzione",
+        "body": {
+          "raw": "import { MDXComponents } from \"@/app/mdx-components\"\n\n\n## Perché ti interessa\n- Conformità UE\n- Onboarding digitale\n- Firme qualificate e sigilli\n\n## 3 passaggi rapidi\n1. Mappa use case\n2. Valuta vendor\n3. POC tecnico\n\n",
+          "code": "var Component=(()=>{var u=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var D=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),M=(n,e)=>{for(var t in e)a(n,t,{get:e[t],enumerable:!0})},s=(n,e,t,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of g(e))!x.call(n,r)&&r!==t&&a(n,r,{get:()=>e[r],enumerable:!(l=h(e,r))||l.enumerable});return n};var c=(n,e,t)=>(t=n!=null?u(f(n)):{},s(e||!n||!n.__esModule?a(t,\"default\",{value:n,enumerable:!0}):t,n)),_=n=>s(a({},\"__esModule\",{value:!0}),n);var o=D((X,d)=>{d.exports=_jsx_runtime});var j={};M(j,{default:()=>p,frontmatter:()=>I});var i=c(o());var C=c(o());var I={title:\"Introduzione pratica a EUDI & eIDAS 2.0\",description:\"Panoramica per PMI: cos'\\xE8 EUDI Wallet, come impatta e cosa fare ora.\",date:\"2025-11-03\",tags:[\"eudi\",\"eidas\",\"pmi\"],slug:\"guida-introduzione\"};function m(n){let e={h2:\"h2\",li:\"li\",ol:\"ol\",ul:\"ul\",...n.components};return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(e.h2,{id:\"perch\\xE9-ti-interessa\",children:\"Perch\\xE9 ti interessa\"}),`\n`,(0,i.jsxs)(e.ul,{children:[`\n`,(0,i.jsx)(e.li,{children:\"Conformit\\xE0 UE\"}),`\n`,(0,i.jsx)(e.li,{children:\"Onboarding digitale\"}),`\n`,(0,i.jsx)(e.li,{children:\"Firme qualificate e sigilli\"}),`\n`]}),`\n`,(0,i.jsx)(e.h2,{id:\"3-passaggi-rapidi\",children:\"3 passaggi rapidi\"}),`\n`,(0,i.jsxs)(e.ol,{children:[`\n`,(0,i.jsx)(e.li,{children:\"Mappa use case\"}),`\n`,(0,i.jsx)(e.li,{children:\"Valuta vendor\"}),`\n`,(0,i.jsx)(e.li,{children:\"POC tecnico\"}),`\n`]})]})}function p(n={}){let{wrapper:e}=n.components||{};return e?(0,i.jsx)(e,{...n,children:(0,i.jsx)(m,{...n})}):m(n)}return _(j);})();\n;return Component;"
+        },
+        "_id": "guides/guida-introduzione.mdx",
+        "_raw": {
+          "sourceFilePath": "guides/guida-introduzione.mdx",
+          "sourceFileName": "guida-introduzione.mdx",
+          "sourceFileDir": "guides",
+          "contentType": "mdx",
+          "flattenedPath": "guides/guida-introduzione"
+        },
+        "type": "Guide",
+        "url": "/guides/guida-introduzione"
+      },
+      "documentHash": "1762182913623",
+      "hasWarnings": false,
+      "documentTypeName": "Guide"
+    },
+    "guides/guida-kyc-kyb.mdx": {
+      "document": {
+        "title": "Onboarding KYC/KYB per PMI",
+        "description": "Dati, prove e firma in un flusso semplice.",
+        "date": "2025-11-03T00:00:00.000Z",
+        "tags": [
+          "kyc",
+          "kyb",
+          "onboarding"
+        ],
+        "slug": "guida-kyc-kyb",
+        "body": {
+          "raw": "import { MDXComponents } from \"@/app/mdx-components\"\n\n\n## Flusso tipo\n1. Verifica documento + liveness\n2. Estrazione dati azienda (VIES, CCIAA)\n3. Firma contratto e archiviazione\n\n",
+          "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var C=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var o in n)r(e,o,{get:n[o],enumerable:!0})},l=(e,n,o,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of h(n))!g.call(e,i)&&i!==o&&r(e,i,{get:()=>n[i],enumerable:!(c=f(n,i))||c.enumerable});return e};var a=(e,n,o)=>(o=e!=null?p(x(e)):{},l(n||!e||!e.__esModule?r(o,\"default\",{value:e,enumerable:!0}):o,e)),M=e=>l(r({},\"__esModule\",{value:!0}),e);var s=C((j,d)=>{d.exports=_jsx_runtime});var D={};_(D,{default:()=>u,frontmatter:()=>y});var t=a(s());var v=a(s());var y={title:\"Onboarding KYC/KYB per PMI\",description:\"Dati, prove e firma in un flusso semplice.\",date:\"2025-11-03\",tags:[\"kyc\",\"kyb\",\"onboarding\"],slug:\"guida-kyc-kyb\"};function m(e){let n={h2:\"h2\",li:\"li\",ol:\"ol\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h2,{id:\"flusso-tipo\",children:\"Flusso tipo\"}),`\n`,(0,t.jsxs)(n.ol,{children:[`\n`,(0,t.jsx)(n.li,{children:\"Verifica documento + liveness\"}),`\n`,(0,t.jsx)(n.li,{children:\"Estrazione dati azienda (VIES, CCIAA)\"}),`\n`,(0,t.jsx)(n.li,{children:\"Firma contratto e archiviazione\"}),`\n`]})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return M(D);})();\n;return Component;"
+        },
+        "_id": "guides/guida-kyc-kyb.mdx",
+        "_raw": {
+          "sourceFilePath": "guides/guida-kyc-kyb.mdx",
+          "sourceFileName": "guida-kyc-kyb.mdx",
+          "sourceFileDir": "guides",
+          "contentType": "mdx",
+          "flattenedPath": "guides/guida-kyc-kyb"
+        },
+        "type": "Guide",
+        "url": "/guides/guida-kyc-kyb"
+      },
+      "documentHash": "1762182913623",
+      "hasWarnings": false,
+      "documentTypeName": "Guide"
+    }
+  }
+}
