@@ -55,7 +55,6 @@ export default function VendorsPage() {
         compatibili con EUDI Wallet ed eIDAS 2.0.
       </p>
 
-      {/* @ts-expect-error static json import typing */}
       <VendorTable data={vendors} />
 
       {/* JSON-LD SEO */}
