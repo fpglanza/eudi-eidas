@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Aruba PEC",
+    "country": "IT",
+    "categories": ["QTSP", "eSignature"],
+    "walletReady": true,
+    "website": "https://www.pec.it/"
+  },
+  {
+    "name": "InfoCert",
+    "country": "IT",
+    "categories": ["QTSP", "eSignature", "KYC"],
+    "walletReady": true,
+    "website": "https://www.infocert.it/"
+  },
+  {
+    "name": "Namirial",
+    "country": "IT",
+    "categories": ["QTSP", "eSignature"],
+    "walletReady": true,
+    "website": "https://www.namirial.com/"
+  },
+  {
+    "name": "SIGNicat",
+    "country": "NO",
+    "categories": ["Identity", "KYC", "eSignature"],
+    "walletReady": false,
+    "website": "https://www.signicat.com/"
+  }
+]
