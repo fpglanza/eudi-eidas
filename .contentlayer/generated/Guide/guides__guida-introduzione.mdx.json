@@ -1,0 +1,25 @@
+{
+  "title": "Introduzione pratica a EUDI & eIDAS 2.0",
+  "description": "Panoramica per PMI: cos'è EUDI Wallet, come impatta e cosa fare ora.",
+  "date": "2025-11-03T00:00:00.000Z",
+  "tags": [
+    "eudi",
+    "eidas",
+    "pmi"
+  ],
+  "slug": "guida-introduzione",
+  "body": {
+    "raw": "import { MDXComponents } from \"@/app/mdx-components\"\n\n\n## Perché ti interessa\n- Conformità UE\n- Onboarding digitale\n- Firme qualificate e sigilli\n\n## 3 passaggi rapidi\n1. Mappa use case\n2. Valuta vendor\n3. POC tecnico\n\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var D=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),M=(i,e)=>{for(var r in e)a(i,r,{get:e[r],enumerable:!0})},s=(i,e,r,l)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of g(e))!x.call(i,t)&&t!==r&&a(i,t,{get:()=>e[t],enumerable:!(l=u(e,t))||l.enumerable});return i};var c=(i,e,r)=>(r=i!=null?m(f(i)):{},s(e||!i||!i.__esModule?a(r,\"default\",{value:i,enumerable:!0}):r,i)),_=i=>s(a({},\"__esModule\",{value:!0}),i);var o=D((X,d)=>{d.exports=_jsx_runtime});var j={};M(j,{default:()=>p,frontmatter:()=>I});var n=c(o());var C=c(o());var I={title:\"Introduzione pratica a EUDI & eIDAS 2.0\",description:\"Panoramica per PMI: cos'\\xE8 EUDI Wallet, come impatta e cosa fare ora.\",date:\"2025-11-03\",tags:[\"eudi\",\"eidas\",\"pmi\"],slug:\"guida-introduzione\"};function h(i){let e={a:\"a\",h2:\"h2\",li:\"li\",ol:\"ol\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h2,{id:\"perch\\xE9-ti-interessa\",children:(0,n.jsx)(e.a,{href:\"#perch\\xE9-ti-interessa\",children:\"Perch\\xE9 ti interessa\"})}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Conformit\\xE0 UE\"}),`\n`,(0,n.jsx)(e.li,{children:\"Onboarding digitale\"}),`\n`,(0,n.jsx)(e.li,{children:\"Firme qualificate e sigilli\"}),`\n`]}),`\n`,(0,n.jsx)(e.h2,{id:\"3-passaggi-rapidi\",children:(0,n.jsx)(e.a,{href:\"#3-passaggi-rapidi\",children:\"3 passaggi rapidi\"})}),`\n`,(0,n.jsxs)(e.ol,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Mappa use case\"}),`\n`,(0,n.jsx)(e.li,{children:\"Valuta vendor\"}),`\n`,(0,n.jsx)(e.li,{children:\"POC tecnico\"}),`\n`]})]})}function p(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(h,{...i})}):h(i)}return _(j);})();\n;return Component;"
+  },
+  "_id": "guides/guida-introduzione.mdx",
+  "_raw": {
+    "sourceFilePath": "guides/guida-introduzione.mdx",
+    "sourceFileName": "guida-introduzione.mdx",
+    "sourceFileDir": "guides",
+    "contentType": "mdx",
+    "flattenedPath": "guides/guida-introduzione"
+  },
+  "type": "Guide",
+  "url": "/guides/guida-introduzione"
+}
