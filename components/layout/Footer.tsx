@@ -6,7 +6,9 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-muted-foreground">
         <p>
           © {new Date().getFullYear()} EUDI & eIDAS per PMI —{" "}
-          <Link href="/about" className="underline underline-offset-2 hover:text-foreground">Chi siamo</Link>
+          <Link href="/about" className="underline underline-offset-2 hover:text-foreground">
+            Chi siamo
+          </Link>
         </p>
         <nav className="flex gap-4">
           <Link href="/guides" className="hover:text-foreground">Guide</Link>

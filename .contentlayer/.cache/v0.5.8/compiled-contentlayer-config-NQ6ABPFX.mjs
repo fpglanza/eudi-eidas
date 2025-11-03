@@ -1,8 +1,8 @@
-import { defineDocumentType, makeSource } from "contentlayer2/source-files"
-import rehypeSlug from "rehype-slug"
-import remarkGfm from "remark-gfm"
-
-export const Guide = defineDocumentType(() => ({
+// contentlayer.config.ts
+import { defineDocumentType, makeSource } from "contentlayer2/source-files";
+import rehypeSlug from "rehype-slug";
+import remarkGfm from "remark-gfm";
+var Guide = defineDocumentType(() => ({
   name: "Guide",
   filePathPattern: `guides/**/*.mdx`,
   contentType: "mdx",
@@ -16,9 +16,8 @@ export const Guide = defineDocumentType(() => ({
   computedFields: {
     url: { type: "string", resolve: (doc) => `/guides/${doc.slug}` }
   }
-}))
-
-export default makeSource({
+}));
+var contentlayer_config_default = makeSource({
   contentDirPath: "content",
   documentTypes: [Guide],
   mdx: {
@@ -26,4 +25,9 @@ export default makeSource({
     rehypePlugins: [rehypeSlug]
   },
   disableImportAliasWarning: true
-})
+});
+export {
+  Guide,
+  contentlayer_config_default as default
+};
+//# sourceMappingURL=compiled-contentlayer-config-NQ6ABPFX.mjs.map

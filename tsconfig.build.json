@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": [],
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    ".next",
+    ".contentlayer",
+    "app/admin/stats/page.tsx",
+    "app/api/track/route.ts"
+  ]
+}

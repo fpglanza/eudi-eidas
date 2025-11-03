@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "contentlayer2 build && next build",
+    "build": "contentlayer2 build && tsc --project tsconfig.build.json --noEmit && next build --webpack && next-sitemap",
     "start": "next start",
     "lint": "eslint",
     "postinstall": "contentlayer2 build",
@@ -34,6 +34,7 @@
     "autoprefixer": "^10.4.21",
     "babel-plugin-react-compiler": "1.0.0",
     "contentlayer2": "^0.5.8",
+    "dotenv": "^17.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.0.1",
     "next-contentlayer2": "^0.5.8",
