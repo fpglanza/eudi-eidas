@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import LeadForm from "@/components/LeadForm";
 
 export default function Page() {
   return (
@@ -49,6 +50,7 @@ export default function Page() {
           Iscrivendoti, accetti privacy e termini. Disiscrizione in qualsiasi momento.
         </p>
       </section>
+      <LeadForm />
     </main>
   );
 }
