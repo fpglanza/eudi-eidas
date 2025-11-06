@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://eudi-eidas.example"\;
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://eudi-eidas.example";
 
 export const metadata: Metadata = {
   title: "Chi siamo | EUDI & eIDAS per PMI",
