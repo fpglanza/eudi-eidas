@@ -6,14 +6,7 @@ export default function LeadForm() {
   if (!src) return null;
 
   return (
-    <section className="py-20 text-center">
-      <h2 className="text-2xl font-semibold mb-2">
-        Resta aggiornato sul progetto EUDI
-      </h2>
-      <p className="text-muted-foreground mb-8">
-        Guide pratiche, novità e strumenti per PMI italiane.
-      </p>
-
+    <section className="text-center">
       <div className="flex justify-center">
         <iframe
           src={src}

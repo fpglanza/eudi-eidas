@@ -46,9 +46,6 @@ export default function Page() {
               `<!-- TODO: incolla qui l'embed Beehiiv/MailerLite -->`,
           }}
         />
-        <p className="text-xs text-center text-muted-foreground mt-2">
-          Iscrivendoti, accetti privacy e termini. Disiscrizione in qualsiasi momento.
-        </p>
       </section>
       <LeadForm />
     </main>
